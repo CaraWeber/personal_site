@@ -1,0 +1,102 @@
+[data-reactroot] 
+        {height: 100% !important; 
+        background: #A3C4DD;
+    	background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+}
+
+.stripe {
+	height: 1.25px;
+	background-color: #52636F;
+	width: 100%;
+}
+
+.my-bkgd {
+background: #A3C4DD;
+background-image: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+}
+
+.my-text {
+	color: rgba(69, 87, 99, 1);
+	font-family: 'Poiret One', cursive;
+}
+
+.my-text p {
+	font-size: 30px;
+}
+
+.mdl-grid {
+	display: flex;
+	padding: 0px;
+}
+
+.mdl-navigation__link {
+	color: rgb(96,113,125);
+	font-family: 'Poiret One', cursive;
+	font-size: 20px;
+}
+
+.mdl-cell.mdl-cell--11-col {
+	height: 15%;
+}
+		
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.half {
+	width: 49%;
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+#leftHome {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#rightHome {
+	width: 40%;
+	padding-top: 45px;
+	padding-right: 45px;
+	padding-left: 45px;
+	color: rgba(69, 87, 99, 1);
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-content: space-between;
+}
+
+#main {
+	height: 100%;
+	width: 100%;
+}
+
+ #triImage {
+ 	width: 75%;
+ 	height: auto;
+ }
+
+ #tri {
+ 	height: auto;
+ 	width: 18%;
+
+ }
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(96,113,125);
+}
