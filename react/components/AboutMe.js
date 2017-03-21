@@ -13,6 +13,6 @@ export default () => (
  		<div className="mdl-cell mdl-cell--4-col">
  			<img src="./IMAG1087.jpg"/>
  		</div>
- 		<h1> something about my backgroumd </h1>
+ 		<h1> something about my background </h1>
  	</main>
 	)

@@ -7,11 +7,15 @@
 	width: 100%;
 }
 
-
-
 .my-text {
 	color: rgba(69, 87, 99, 1);
 	font-family: 'Poiret One', cursive;
+}
+
+.my-text-projects {
+	color: rgba(38, 53, 64, 1);
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
 }
 
 .my-text p {
@@ -32,7 +36,22 @@
 .mdl-cell.mdl-cell--11-col {
 	height: 15%;
 }
-		
+	
+.row {
+	border-color: rgba(38, 53, 64, 1);
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}	
+
+.row-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 60px;
+}
 
 .container {
 	display: flex;
@@ -44,6 +63,13 @@
 
 .half {
 	width: 49%;
+	padding: 0px;
+	height: 100%;
+}
+
+.desc {
+	padding: 20px;
+	background-color: rgba(245, 248, 249, 1);
 }
 
 html, body {
@@ -61,6 +87,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 #rightHome {
