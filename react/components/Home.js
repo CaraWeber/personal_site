@@ -13,10 +13,10 @@ export default () => (
 			<div className="stripe">
 			</div>
 		</div>
-		<div className="half" id="leftHome">
+		<div className="halfHome" id="leftHome">
 			<img id="triImage" src="./triangles1.png"/>
 		</div>
-		<div className="half my-text" id="rightHome">
+		<div className="halfHome my-text" id="rightHome">
 			<p> Cara Weber </p>
 			<p> web developer </p>
 			<p> Brooklyn, NY </p>

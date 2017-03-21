@@ -20,12 +20,22 @@ export const asanaspace = {
 	desc: "3D digital image library for yoga poses, allows user to view a pose modeled in 3 dimensions and rotate the model to facilitate understanding of proper alignment. Built with:  node, javascript, express, blender, react, material design lite, three js (solo project)"
 }
     
-    //     return (
-				// <p> Visual text analysis tool (interactive) </p>
-				// <p> Uses Google’s word2vec (natural language protocol which “translates” words to 
- 			// 		300-dimension vectors) to render words from a user-input text as spheres in a 3D model, arranged in relation to axes defined by the 3 vectors of principal variation in the data (word vectors).  Axes labeled with the closest match words. </p>
-				// <p> Built with: node, javascript, python, flask, express, word2vec, sci-kit learn, react, three js, firebase </p>
-				// )
+export const paraGimg = {
+	backgroundImage: 'url("./paragraphic.png")',
+	overflow: 'hidden',
+	backgroundSize: 'cover',
+	bottom: '0',
+    position: 'absolute',
+    right: '0', 
+    top: '0'
+}
 
-
-
+export const asanaImg = {
+	backgroundImage: 'url("./asanas.png")',
+	overflow: 'hidden',
+	backgroundSize: 'cover',
+	bottom: '0',
+    position: 'absolute',
+    right: '0', 
+    top: '0'
+}

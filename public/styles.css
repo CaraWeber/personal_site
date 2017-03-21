@@ -44,6 +44,7 @@
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	position: relative;
 }	
 
 .row-container {
@@ -55,20 +56,31 @@
 
 .container {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
 	width: 100%;
+	align-content: space-between;
 }
 
-.half {
+.halfHome {
+	height: 100%;
 	width: 49%;
 	padding: 0px;
-	height: 100%;
+}
+
+
+
+.half {
+	min-height: 100%;
+	width: 49%;
+	padding: 0px;
 }
 
 .desc {
-	padding: 20px;
+	height: 100%;
+	padding: 30px;
+	padding-right: 50px;
 	background-color: rgba(245, 248, 249, 1);
 }
 
@@ -116,6 +128,10 @@ body {
  	height: auto;
  	width: 18%;
 
+ }
+
+ #aboutContainer {
+ 	padding: 30px;
  }
 
 img {
