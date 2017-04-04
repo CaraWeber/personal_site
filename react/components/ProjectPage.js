@@ -2,7 +2,7 @@ import React from 'react';
 
 import Description from './Description';
 
-import { expressDevMap, paragraphic, asanaspace, paraGimg, asanaImg } from './project-info';
+import { expressDevMap, paragraphic, asanaspace, expDMimg, paraGimg, asanaImg } from './project-info';
 
 
 const myHeading = {
@@ -29,7 +29,7 @@ export default class ProjectPage extends React.Component {
 					<div className="half desc">
 						<Description  project={expressDevMap}/>
 					</div>
-					<div className="half">	
+					<div className="half" style={expDMimg}>	
 					</div>
 				</div>
 				<div className="container row">
