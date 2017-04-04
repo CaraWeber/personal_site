@@ -34,7 +34,7 @@
 }
 
 .mdl-cell.mdl-cell--11-col {
-	height: 15%;
+	height: 55%;
 }
 	
 .row {
@@ -67,8 +67,10 @@
 	height: 100%;
 	width: 49%;
 	padding: 0px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: inline-flex;
 }
-
 
 
 .half {
@@ -96,9 +98,9 @@ body {
 }
 
 #leftHome {
-	display: flex;
 	justify-content: center;
 	align-items: center;
+	display: inline-flex;
 	
 }
 
@@ -108,7 +110,7 @@ body {
 	padding-right: 45px;
 	padding-left: 45px;
 	color: rgba(69, 87, 99, 1);
-	display: flex;
+	display: inline-flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-content: space-between;
@@ -131,7 +133,23 @@ body {
  }
 
  #aboutContainer {
- 	padding: 30px;
+ 	padding: 50px;
+ 	padding-top: 100px;
+ }
+
+ #resumeContainer {
+	height: 100%;
+	width: 100%;
+}
+
+#resumeContainer img {
+	height: auto;
+	width: 70%;
+	margin-left: 15%;
+}
+
+ #headerDiv {
+ 	margin-bottom: 7%;
  }
 
 img {

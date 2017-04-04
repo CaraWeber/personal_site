@@ -8,24 +8,26 @@ const darkerColor = {
 
 export default () => (
 
-	<div className="mdl-grid container mdl-cell--stretch">
+	<div>
 		<div className="mdl-cell mdl-cell--11-col container">
 			<div className="stripe">
 			</div>
 		</div>
-		<div className="halfHome" id="leftHome">
-			<img id="triImage" src="./triangles1.png"/>
+		<div className="container">
+			<div className="halfHome" id="leftHome">
+				<img id="triImage" src="./triangles1.png"/>
+			</div>
+			<div className="halfHome my-text" id="rightHome">
+				<p> Cara Weber </p>
+				<p> web developer </p>
+				<p> Brooklyn, NY </p>
+				<p></p>
+				<p></p>
+				<p></p>
+				<img id="tri" src="./Triangle.png" />
+			</div>
 		</div>
-		<div className="halfHome my-text" id="rightHome">
-			<p> Cara Weber </p>
-			<p> web developer </p>
-			<p> Brooklyn, NY </p>
-			<p></p>
-			<p></p>
-			<p></p>
-			<img id="tri" src="./Triangle.png" />
-		</div>
-		
+
 		<div className="mdl-cell mdl-cell--11-col container">
 			<div className="stripe" style={darkerColor}>
 			</div>

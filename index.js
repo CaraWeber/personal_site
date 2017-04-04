@@ -8,6 +8,7 @@ import App from './react/components/App';
 import AboutMe from './react/components/AboutMe';
 import Home from './react/components/Home';
 import ProjectPage from './react/components/ProjectPage';
+import Resume from './react/components/Resume';
 
 
 
@@ -25,6 +26,7 @@ ReactDOM.render(
         <Route path="home" component={ Home } />
         <Route path="about" component={ AboutMe } />
         <Route path="projects" component={ ProjectPage } />
+        <Route path="cv" component={ Resume } />
       </Route>
 		</Router>,
 	document.getElementById('main'));

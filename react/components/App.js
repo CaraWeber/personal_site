@@ -19,7 +19,7 @@ export default class App extends React.Component{
 	render() {
 	return (
 			<div>
-					<div>
+					<div id="headerDiv">
 						<header className="mdl-layout__header mdl-layout__header--transparent" style={style}>
 							<div className="mdl-layout__header-row mytext">
 						     {/*Add spacer, to align navigation to the right  */}
@@ -28,6 +28,7 @@ export default class App extends React.Component{
 						        <Link className="mdl-navigation__link" to="/home" style={style}>  home  </Link>
 						        <Link className="mdl-navigation__link" to="/projects" style={style}>  projects  </Link>
 						        <Link className="mdl-navigation__link" to="/about" style={style}>  about  </Link>
+						        <Link className="mdl-navigation__link" to="/cv" style={style}> resume </Link>
 						      </nav>
 						     {/* <span className="mdl-layout-title ">title?</span> */}
 						    </div>
