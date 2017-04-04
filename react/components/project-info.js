@@ -20,6 +20,16 @@ export const asanaspace = {
 	desc: "3D digital image library for yoga poses, allows user to view a pose modeled in 3 dimensions and rotate the model to facilitate understanding of proper alignment. Built with:  node, javascript, express, blender, react, material design lite, three js (solo project)",
 	link: "https://asanaspace.herokuapp.com/home"
 }
+
+export const expDMimg = {
+	backgroundImage: 'url("./expDM.png")',
+	overflow: 'hidden',
+	backgroundSize: 'cover',
+	bottom: '0',
+    position: 'absolute',
+    right: '0', 
+    top: '0'
+}
     
 export const paraGimg = {
 	backgroundImage: 'url("./paragraphic.png")',
