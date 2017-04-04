@@ -7,7 +7,8 @@ import {Router, Route, Link, browserHistory, IndexRedirect} from 'react-router';
 import App from './react/components/App';
 import AboutMe from './react/components/AboutMe';
 import Home from './react/components/Home';
-import Projects from './react/components/Projects';
+import ProjectPage from './react/components/ProjectPage';
+import Resume from './react/components/Resume';
 
 
 
@@ -24,7 +25,8 @@ ReactDOM.render(
 				<IndexRedirect to="/home" />
         <Route path="home" component={ Home } />
         <Route path="about" component={ AboutMe } />
-        <Route path="projects" component={ Projects } />
+        <Route path="projects" component={ ProjectPage } />
+        <Route path="cv" component={ Resume } />
       </Route>
 		</Router>,
 	document.getElementById('main'));

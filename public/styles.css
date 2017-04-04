@@ -7,11 +7,15 @@
 	width: 100%;
 }
 
-
-
 .my-text {
 	color: rgba(69, 87, 99, 1);
 	font-family: 'Poiret One', cursive;
+}
+
+.my-text-projects {
+	color: rgba(38, 53, 64, 1);
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
 }
 
 .my-text p {
@@ -30,20 +34,56 @@
 }
 
 .mdl-cell.mdl-cell--11-col {
-	height: 15%;
+	height: 55%;
 }
-		
+	
+.row {
+	border-color: rgba(38, 53, 64, 1);
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}	
+
+.row-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 60px;
+}
 
 .container {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	height: 100%;
 	width: 100%;
+	align-content: space-between;
 }
 
-.half {
+.halfHome {
+	height: 100%;
 	width: 49%;
+	padding: 0px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: inline-flex;
+}
+
+
+.half {
+	min-height: 100%;
+	width: 49%;
+	padding: 0px;
+}
+
+.desc {
+	height: 100%;
+	padding: 30px;
+	padding-right: 50px;
+	background-color: rgba(245, 248, 249, 1);
 }
 
 html, body {
@@ -58,9 +98,10 @@ body {
 }
 
 #leftHome {
-	display: flex;
 	justify-content: center;
 	align-items: center;
+	display: inline-flex;
+	
 }
 
 #rightHome {
@@ -69,7 +110,7 @@ body {
 	padding-right: 45px;
 	padding-left: 45px;
 	color: rgba(69, 87, 99, 1);
-	display: flex;
+	display: inline-flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-content: space-between;
@@ -89,6 +130,26 @@ body {
  	height: auto;
  	width: 18%;
 
+ }
+
+ #aboutContainer {
+ 	padding: 50px;
+ 	padding-top: 100px;
+ }
+
+ #resumeContainer {
+	height: 100%;
+	width: 100%;
+}
+
+#resumeContainer img {
+	height: auto;
+	width: 70%;
+	margin-left: 15%;
+}
+
+ #headerDiv {
+ 	margin-bottom: 7%;
  }
 
 img {
